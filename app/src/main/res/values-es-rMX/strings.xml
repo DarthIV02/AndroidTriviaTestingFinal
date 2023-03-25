@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidTriviaTesting</string>
+    <string name="somePlaceholder">Some temp placeholder</string>
+    <string name="backButton">Atras</string>
+    <string name="nextButton">Siguiente</string>
+    <string name="some_trivia_image">Some Trivia Image</string>
+    <string name="questionText">¿De qué película animada es la imagen?</string>
+    <string name="app_trivia_logo">App Trivia LOGO</string>
+    <string name="namePlaceholder">Escribe tu nombre aquí</string>
+    <string name="btnStart">Empezar</string>
+    <string name="toastEmptyName">¡Escribe tu nombre!</string>
+</resources>
