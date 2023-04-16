@@ -91,6 +91,16 @@ public class Question1Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        binding.backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Question1Activity.this, Question2Activity.class);
+                intent.putExtra("USERID", userId);
+                intent.putExtra("QUESTIONS", questionsAlreadyAsked);
+                startActivity(intent);
+            }
+        });
     }
 
     public int evaluateAnswerSelection(RadioGroup radioGroup, int selectedAnswer){

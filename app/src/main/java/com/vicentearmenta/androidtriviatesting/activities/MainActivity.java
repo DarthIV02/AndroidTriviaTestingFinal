@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         DatabaseOperations db = new DatabaseOperations(this);
 
         mDBOperations = new DatabaseOperations(MainActivity.this);
-        //mDBOperations.deleteResults(); // DELETE ALL RESULTS FROM TABLE
+        //mDBOperations.deleteResults(); // DELETE
 
         binding.btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
